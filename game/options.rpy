@@ -17,7 +17,7 @@ define config.name = _("Innocents")
 ## 위에 주어진 제목이 주 메뉴 화면에 표시되는지 결정합니다. 제목을 숨기려면 이것
 ## 을 False로 설정하십시오.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## 게임의 버전입니다.
@@ -29,6 +29,9 @@ define config.version = "1.0"
 ## 하고 단락 사이에 빈 줄을 남겨 둡니다.
 
 define gui.about = _p("""
+Volkov Studio Presents
+
+Written by Zia
 """)
 
 
@@ -81,12 +84,12 @@ define config.intra_transition = dissolve
 
 ## 게임이 로드된 후 사용되는 전환입니다.
 
-define config.after_load_transition = None
+define config.after_load_transition = dissolve
 
 
 ## 게임 종료 후 주 메뉴에 진입할 때 사용됩니다.
 
-define config.end_game_transition = None
+define config.end_game_transition = dissolve
 
 
 ## 게임을 시작할 때 사용되는 전환을 설정하는 변수가 없습니다. 대신, 초기 장면을
