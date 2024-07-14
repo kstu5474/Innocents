@@ -558,8 +558,7 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("{a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] 으로 만들어진 게임.\n\n[renpy.license!t]")
-
+            text _("{color=#0066cc}Innocents{/color}는 {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] 으로 제작되었습니다. \n\n[renpy.license!t]")
 
 style about_label is gui_label
 style about_label_text is gui_label_text

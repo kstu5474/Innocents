@@ -31,7 +31,14 @@ define config.version = "1.0"
 define gui.about = _p("""
 Volkov Studio Presents
 
-Written by Zia
+Directed By SuRang
+
+Written By Zia
+
+Developed By JeonSim, SuRang
+
+Used Font - GowunDodum, GowunBatang
+
 """)
 
 
